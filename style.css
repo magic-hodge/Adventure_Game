@@ -1,0 +1,43 @@
+* {
+	border: border-box;
+}
+
+body {
+	background: url('high_fantasy_background.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+
+h1 {
+	margin: 15px auto;
+	font-family: 'Marck Script', cursive;
+}
+
+h2 {
+	margin: 15px auto;
+	font-family: 'Merienda', cursive;
+}
+
+h3 {
+	margin: 15px auto;
+	font-size: 25px;
+	font-family: 'Judson', serif;
+}
+
+.gameContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.trinket {
+	margin: 15px;
+	opacity: 0.75;
+}
+
+.notes {
+	width: 40%;
+	margin: 15px;
+	opacity: 0.7;
+}
